@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slide</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	body{
+		background-color: #e6e6e6;
+	}
+	.card{
+		position: absolute;
+		background: white;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+		border: none;
+		border-radius: 18px;
+		min-height: 280px;
+		width: 26%;
+		box-shadow: 1px 3px 2px 2px grey,
+					2px 3px 2px  grey;
+	}
+	.head{
+		margin: 10px;
+		text-align: center;
+		align-items: center;
+	}
+	.head img{
+		margin: 2px;
+		box-shadow: 3px 3px 2px 3px grey;
+	}
+	.job{
+		font-weight: 250;
+		letter-spacing: 2px;
+	}
+	.head p{
+		font-weight: 550;
+		margin: 3px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+	.content{
+		font-size: 18px;
+		text-align: center;
+		padding: 5px;
+		margin: 5px;
+		word-spacing: 2px;
+	}
+	.review{
+		text-align: center;
+
+	}
+	button{
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 10px;
+		background-color: white;
+		color: grey;
+	}
+	.fa{
+		font-size: 20px;
+	}
+	button:hover{
+		color: blue;
+	}
+</style>
+<body>
+	<div class="card">
+		<div class="head">
+			<img src="profile.jpg" alt="profile" height="50" width="50" style="border-radius: 50px;" class="profileimg">
+			<p class="name">PUhbjg jgyhnbvg</p>
+			<h5 class="job">ewb ngyth</h5>
+		</div>
+		<div >
+			<p class="content">loreum ipsomn bvvdhrdcvb nm,.jkugv jhmjhjyx hjhkkjnmnbcvscwszscn j,hgv hu z af vsrat wrtw aw4tfst WY	q4EQGT3FTA 46TDR YF </p>
+		</div>
+		<div class="review">
+			<button class="pre">
+				<i class="fa fa-chevron-left" aria-hidden="true"></i>
+			</button>
+			<button class="nxt">
+				<i class="fa fa-chevron-right" aria-hidden="true"></i>
+			</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
